@@ -16,6 +16,7 @@
 		7E3BE52628170DFE007EAC02 /* swift_03_kontroldarbsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BE52528170DFE007EAC02 /* swift_03_kontroldarbsTests.swift */; };
 		7E3BE53028170DFE007EAC02 /* swift_03_kontroldarbsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BE52F28170DFE007EAC02 /* swift_03_kontroldarbsUITests.swift */; };
 		7E3BE53228170DFE007EAC02 /* swift_03_kontroldarbsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BE53128170DFE007EAC02 /* swift_03_kontroldarbsUITestsLaunchTests.swift */; };
+		7E4A2BD02818770B00470FC1 /* CountryListViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A2BCF2818770A00470FC1 /* CountryListViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7E3BE52B28170DFE007EAC02 /* swift_03_kontroldarbsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_03_kontroldarbsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3BE52F28170DFE007EAC02 /* swift_03_kontroldarbsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_03_kontroldarbsUITests.swift; sourceTree = "<group>"; };
 		7E3BE53128170DFE007EAC02 /* swift_03_kontroldarbsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_03_kontroldarbsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E4A2BCF2818770A00470FC1 /* CountryListViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7E3BE51728170DFE007EAC02 /* Assets.xcassets */,
 				7E3BE51928170DFE007EAC02 /* LaunchScreen.storyboard */,
 				7E3BE51C28170DFE007EAC02 /* Info.plist */,
+				7E4A2BCF2818770A00470FC1 /* CountryListViewControler.swift */,
 			);
 			path = swift_03_kontroldarbs;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E4A2BD02818770B00470FC1 /* CountryListViewControler.swift in Sources */,
 				7E3BE51328170DFB007EAC02 /* ViewController.swift in Sources */,
 				7E3BE50F28170DFB007EAC02 /* AppDelegate.swift in Sources */,
 				7E3BE51128170DFB007EAC02 /* SceneDelegate.swift in Sources */,
