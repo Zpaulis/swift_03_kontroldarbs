@@ -67,8 +67,8 @@
                                                             <imageReference key="backgroundImage" image="arrowshape.turn.up.forward.circle.fill" catalog="system" symbolScale="large"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="valstuSarakstsButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="67f-KK-6JH"/>
-                                                            <segue destination="Hd4-k7-TWe" kind="show" identifier="CountryListIdentifier" id="P8I-0E-bcR"/>
+                                                            <action selector="valstuSarakstsButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Huv-0F-KTU"/>
+                                                            <segue destination="Hd4-k7-TWe" kind="show" identifier="CountryListIdentifier" id="VAR-0O-bur"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -488,9 +488,9 @@ Jaunā pasaule ir tā pasaules daļa, kas apgūta vēlāk kā pārējās. Parast
         </scene>
     </scenes>
     <resources>
-        <image name="arrowshape.turn.up.forward.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="arrowshape.turn.up.forward.circle.fill" catalog="system" width="32" height="32"/>
         <image name="arrowshape.turn.up.forward.fill" catalog="system" width="128" height="106"/>
-        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="32" height="32"/>
         <image name="bumbulis" width="274" height="269"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
