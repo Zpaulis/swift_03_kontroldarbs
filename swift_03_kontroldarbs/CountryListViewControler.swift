@@ -10,7 +10,7 @@ import UIKit
 
 class CountryListViewControler: UIViewController {
     
-    //MARK: -Input parametrs
+    //MARK: -Input parameters
     var valstis: [String: String] = ["valsts": "karogs"]
     var countryListTitle: String = "Valstu saraksts"
     

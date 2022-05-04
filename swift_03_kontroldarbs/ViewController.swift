@@ -6,6 +6,9 @@
 //
 
 import UIKit
+//MARK: -Data from outside
+//let inputData
+
 
 class ViewController: UIViewController {
 
@@ -21,9 +24,10 @@ class ViewController: UIViewController {
     }
     //MARK: -Buttons
     
-    @IBAction func valstuSarakstsButtonClicked(_ sender: Any) {
+ /* Šo saiti man izdevās nodefinēt Storyboardā
+            @IBAction func valstuSarakstsButtonClicked(_ sender: Any) {
             self.performSegue(withIdentifier: "CountryListIdentifier", sender: self)
-        }
+        } */
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             if segue.identifier == "CountryListIdentifier" {
                 if let ctrl = segue.destination as? CountryListViewControler {
