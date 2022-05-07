@@ -8,12 +8,12 @@
 import Foundation
 import UIKit
 
+//MARK: - 3. UIViewController apakšklase - CountryCardView ekrāna ViewController
 class CountryCardViewControler: UIViewController {
     
     //MARK: -Input parameters
     
-    var card1 = CountryInfoOne(countryName: "Barbadosa", countryFlag: "flag-of-Barbados", countryPopulation: 287025, countryArea: 439.0)
-   // var countryCardTytle: String
+    var card1 = CountryInfoOne(countryName: "Latvija", countryFlag: "flag-of-Latvia", countryPopulation: 1902000, countryArea: 64589.0)
     
     //MARK: - Outlets
     
@@ -22,6 +22,9 @@ class CountryCardViewControler: UIViewController {
     @IBOutlet weak var countryPopulationLabel: UILabel!
     @IBOutlet weak var countryAreaLabel: UILabel!
     @IBOutlet weak var countryDensityLabel: UILabel!
+    
+    
+//MARK: - Fill scene
     
     override func viewDidLoad() {
         super.viewDidLoad()

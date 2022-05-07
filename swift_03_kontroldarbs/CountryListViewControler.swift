@@ -8,13 +8,14 @@
 import Foundation
 import UIKit
 
+//MARK: - 2. UIViewController apakšklase - CountryListView ekrāna ViewController
 class CountryListViewControler: UIViewController {
     
-    //MARK: -Input parameters
+    //MARK: - Input parameters
     var valstis: [String: String] = ["valsts": "karogs"]
     var countryListTitle: String = "Valstu saraksts"
     
-    //MARK: -Outlets
+    //MARK: - Outlets
     
     @IBOutlet weak var countryListTitleLabel: UILabel!
     
@@ -32,9 +33,10 @@ class CountryListViewControler: UIViewController {
     @IBOutlet weak var valsts5karogs: UIImageView!
     @IBOutlet weak var valsts6karogs: UIImageView!
     
+    //MARK: - Fill scene
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Neracionāla koda paraugs
+        // Rotaļas ar Dictionary un Stack view
         self.countryListTitleLabel.text = countryListTitle
         self.valsts1rinda.text = Array(valstis)[0].key
         self.valsts1karogs.image = UIImage.init(named: Array(valstis)[0].value)
