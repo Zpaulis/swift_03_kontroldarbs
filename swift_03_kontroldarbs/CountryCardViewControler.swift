@@ -12,13 +12,25 @@ class CountryCardViewControler: UIViewController {
     
     //MARK: -Input parameters
     
+    var card1 = CountryInfoOne(countryName: "Barbadosa", countryFlag: "flag-of-Barbados", countryPopulation: 287025, countryArea: 439.0)
+   // var countryCardTytle: String
     
+    //MARK: - Outlets
     
+    @IBOutlet weak var countryCardTytleLabel: UILabel!
+    @IBOutlet weak var countryFlagImageView: UIImageView!
+    @IBOutlet weak var countryPopulationLabel: UILabel!
+    @IBOutlet weak var countryAreaLabel: UILabel!
+    @IBOutlet weak var countryDensityLabel: UILabel!
     
-    
-    
-    
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.countryCardTytleLabel.text = card1.countryName
+        self.countryFlagImageView.image = UIImage.init(named: card1.countryFlag)
+        self.countryPopulationLabel.text = "Iedzīvotāju skaits - " + String(card1.countryPopulation)
+        self.countryAreaLabel.text = "Platība - " + String(card1.countryArea)
+        self.countryDensityLabel.text = "Iedzīvotāju blīvums - " + String(format: "%.2f", Double(card1.countryPopulation) / card1.countryArea)
+    }
 }
 
 

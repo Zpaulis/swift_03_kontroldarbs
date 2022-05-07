@@ -5,10 +5,25 @@
 //  Created by Paulis Zabarovskis on 25/04/2022.
 //
 
+import Foundation
 import UIKit
-//MARK: -Data from outside
-//let inputData
+//MARK: -Data from "outside"
 
+struct CountryInfoOne {
+    var countryName: String = " "
+    var countryFlag: String = " "
+    var countryPopulation: Int = 10
+    var countryArea: Double = 1.0
+    var countryDensity: Double {
+        return Double(countryPopulation) / countryArea
+    }
+    init(countryName: String, countryFlag: String, countryPopulation: Int, countryArea: Double) {
+        self.countryName = countryName
+        self.countryFlag = countryFlag
+        self.countryPopulation = countryPopulation
+        self.countryArea = countryArea
+    }
+}
 
 class ViewController: UIViewController {
 

@@ -298,6 +298,13 @@ Jaunā pasaule ir tā pasaules daļa, kas apgūta vēlāk kā pārējās. Parast
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="DxO-I0-rCe"/>
+                    <connections>
+                        <outlet property="countryAreaLabel" destination="eX2-yf-gRC" id="mnX-6h-0rh"/>
+                        <outlet property="countryCardTytleLabel" destination="OTf-ej-6Yy" id="BiE-bx-yqL"/>
+                        <outlet property="countryDensityLabel" destination="LtW-oQ-n2I" id="MCr-7h-hUf"/>
+                        <outlet property="countryFlagImageView" destination="d68-DE-5MP" id="LKg-s1-5hg"/>
+                        <outlet property="countryPopulationLabel" destination="l2H-xP-PAz" id="4uh-f1-J3b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wCY-gN-cfw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
